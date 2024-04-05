@@ -1,0 +1,137 @@
+:root{
+  --main-color : #d3ac8d;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap');
+/* Add this to your CSS file if necessary */
+
+
+
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+    
+  
+  .header-content .social-media {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+   }
+
+   .header-content {
+    margin-left: 20%; /* Adjust this value as needed */
+    text-align: center !important;
+   }
+   
+ 
+   
+   .header-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   }
+   
+   .header-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 1rem;
+   }
+   
+   .header-content .icon {
+    width: 40px;
+    height:40px;
+    background-color: transparent;
+    color: #333;
+   }
+   
+   .header-content a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin: 20px;
+   }
+   
+   .header-content a:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+   }
+   
+
+  header{
+    background-image: url('../images/headerbg.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .logo{
+    width: 150px;
+    
+  }
+
+  .icon{
+    width: 2rem;
+    height: 2rem;
+
+  }
+  #about{
+    background-color: var(--main-color);
+  }
+
+  .title h2{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #f4f4f4;
+  }
+
+  .title h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:black;
+  }
+  #testimonial{
+    background-color: #786256;
+    padding: 10px;
+  }
+
+.client-feedback{
+  border: solid 4px #f1f1f1;
+}
+
+.client-img{
+  width: 90px;
+  border-radius:50%;
+  border: solid 4px #f4f4f4;
+  transform: translateY(50%)
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-indent: 0;
+  border: solid 3px #f1f1f1;
+ margin: 5px;
+
+}
+
+.carousel-indicators{
+  margin-bottom: 0px !important;
+}
+
+
+
+footer{
+  padding-top: 20px;
+  background-color: #333;
+}
